@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1100px;
+  margin: 0;
+  font-family: 'Raleway', Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+  
+}
+
+address{
+  font-style: unset;
+  unicode-bidi:unset;
+}
+
+li{
+  list-style-position: inside!important;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
